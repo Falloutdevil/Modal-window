@@ -3,7 +3,7 @@ body {
    
 }
 body {
-    background-image: url(/assets/img/background.png);
+    background-image: url(../assets/img/background.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -55,7 +55,7 @@ body::before {
     height: 35px;
     border-radius: 50%;
     background-color: #e10101;
-    background-image: url(/assets/img/х.png);
+    background-image: url(../assets/img/х.png);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -107,7 +107,7 @@ body::before {
 
 .title::before {
     content: "";
-    background-image: url(/assets/img/wave.png);
+    background-image: url(./assets/img/wave.png);
     width: 63px;
     height: 7px;
     position: absolute;
@@ -117,7 +117,7 @@ body::before {
 
 .title::after{
     content: "";
-    background-image: url(/assets/img/wave.png);
+    background-image: url(./assets/img/wave.png);
     width: 63px;
     height: 7px;
     position: absolute;
@@ -208,7 +208,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .capcha {
-    background-image: url(/assets/img/capcha.png);
+    background-image: url(./assets/img/capcha.png);
     margin-top: -5px;
 
 }
